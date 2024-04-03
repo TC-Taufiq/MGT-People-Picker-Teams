@@ -1,0 +1,49 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "51818038-fd14-4ce4-a8b4-80a8f36e34d3",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://4ad7-183-82-30-115.ngrok-free.app",
+        "privacyUrl": "https://4ad7-183-82-30-115.ngrok-free.app/index.html#/privacy",
+        "termsOfUseUrl": "https://4ad7-183-82-30-115.ngrok-free.app/index.html#/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Mgt teams tab",
+        "full": "Tab graph toolkit"
+    },
+    "description": {
+        "short": "Short description for Personal App.",
+        "full": "Full description of Personal App."
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+        {
+            "entityId": "index0",
+            "name": "Personal Tab",
+            "contentUrl": "https://4ad7-183-82-30-115.ngrok-free.app/index.html#/tab",
+            "websiteUrl": "https://4ad7-183-82-30-115.ngrok-free.app/index.html#/tab",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "*.ngrok-free.app"
+    ],
+    "webApplicationInfo": {
+        "id": "094e7487-00f3-4ba3-af05-691f44a37abd",
+        "resource": "api://4ad7-183-82-30-115.ngrok-free.app/094e7487-00f3-4ba3-af05-691f44a37abd"
+    },
+    "showLoadingIndicator": false
+}
